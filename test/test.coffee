@@ -1,5 +1,6 @@
-QueryParams = require('../queryparams').QueryParams
 should = require('should')
+
+QueryParams = require('../src/queryparams').QueryParams
 
 describe 'QueryParams', -> 
   it "generates nothing if need be", ->

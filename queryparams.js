@@ -1,7 +1,3 @@
-
-
-/* queryparams.js.coffee */
-
 (function() {
   var QueryParams, append_key, isArray,
     __hasProp = Object.prototype.hasOwnProperty;

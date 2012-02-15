@@ -1,9 +1,15 @@
 {
-  "name"          : "queryparams-coffee",
-  "description"   : "A CoffeeScript port of QueryParams (http://github.com/simen/queryparams)",
-  "url"           : "http://github.com/bjoerge/queryparams-coffee",
-  "author"        : "Bjørge Næss <bjoerge@bengler.no>, Simen Svale Skogsrud <simen@bengler.no>",
-  "main"          : "queryparams.js",
-  "version"       : "0.0.1",
-  "repository"    : "http://github.com/bjoerge/queryparams-coffee"
+  "name"            : "queryparams-coffee",
+  "description"     : "A CoffeeScript port of QueryParams (http://github.com/simen/queryparams)",
+  "url"             : "http://github.com/bjoerge/queryparams-coffee",
+  "author"          : "Bjørge Næss <bjoerge@bengler.no>, Simen Svale Skogsrud <simen@bengler.no>",
+  "main"            : "queryparams.js",
+  "version"         : "0.0.1",
+  "devDependencies" : {
+    "mocha"         : "git://github.com/bjoerge/mocha",
+    "coffee-script" : "1.2.0",
+    "should"        : "0.5.1",
+    "uglify-js"     : "1.2.5"
+  },
+  "repository"      : "http://github.com/bjoerge/queryparams-coffee"
 }
