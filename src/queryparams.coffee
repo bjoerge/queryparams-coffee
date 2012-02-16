@@ -1,4 +1,4 @@
-isArray = (obj) -> toString.call(obj) == '[object Array]';
+isArray = (obj) -> Object::toString.call(obj) == '[object Array]';
 
 append_key = (root_key, key) ->
   if root_key then "#{root_key}[#{key}]" else key
