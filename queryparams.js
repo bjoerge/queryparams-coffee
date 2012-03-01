@@ -3,7 +3,7 @@
     __hasProp = Object.prototype.hasOwnProperty;
 
   isArray = function(obj) {
-    return toString.call(obj) === '[object Array]';
+    return Object.prototype.toString.call(obj) === '[object Array]';
   };
 
   append_key = function(root_key, key) {
